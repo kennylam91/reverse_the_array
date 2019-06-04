@@ -31,8 +31,9 @@ public class reverse_array {
 
     public static void showArrayElements(double[] array) {
         for (double element : array) {
-            System.out.println(element);
+            System.out.print(element+"\t");
         }
+        System.out.println();
     }
 
     public static double[] reverseArray(double[] array) {
